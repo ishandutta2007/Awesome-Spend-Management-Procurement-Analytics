@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&oogo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
@@ -123,9 +123,9 @@ Self-hosted, transparent, and community-maintained Spend Management, Procurement
 
 ### 🌟 Open-Source Solutions Comparison
 
-*The table below is sorted by GitHub star count in descending order, with social star badges linking directly to each repository's stargazers page:*
+*The table below is sorted by GitHub Stars_Count in descending order, with social Stars_Badges linking directly to each repository's stargazers page:*
 
-| Solution & Repository 📦 | GitHub Stars 🌟 | Primary Stack 🛠️ | License ⚖️ | Spend & Procurement Capabilities ⚡ |
+| Solution & Repository 📦 | GitHub_Stars 🌟 | Primary Stack 🛠️ | License ⚖️ | Spend & Procurement Capabilities ⚡ |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Odoo Purchase](https://github.com/odoo/odoo)** 🌐 | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python / PostgreSQL / JavaScript | LGPL-3.0 | Complete ERP purchase module: Requisition-to-pay, RFP tender comparisons, automated PO replenishment rules, and 3-way invoice matching. |
 | **[ERPNext](https://github.com/frappe/erpnext)** 💼 | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python (Frappe) / MariaDB / JS | GPL-3.0 | Full open-source ERP procurement suite: Supplier quotations, purchase requisitions, PO lifecycle, vendor ratings, landed cost vouchers, and spend analytics. |
@@ -231,7 +231,7 @@ Contributions are warmly welcomed! If you know of an open-source Spend Managemen
 2. Create your feature branch (`git checkout -b feature/add-new-tool`).
 3. Add the project to the relevant comparison tables and detailed lists with:
    - Project Name and direct GitHub link
-   - Social star badge linking to the stargazers page
+   - Social Stars_Badge linking to the stargazers page
    - Tech stack, license, and key capabilities
 4. Commit your changes and submit a pull request!
 
