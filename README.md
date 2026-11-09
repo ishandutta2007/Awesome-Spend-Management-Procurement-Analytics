@@ -1,152 +1,243 @@
-# Awesome-Spend-Management-Procurement-Analytics
+# 📊 Awesome Spend Management & Procurement Analytics ⚡
 
-# Awesome Spend Management & Procurement Analytics
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Spend Management and Procurement Analytics Banner" width="100%">
+</p>
 
-> A curated list of top Spend Management and Procurement Analytics platforms — both SaaS/Hosted commercial solutions and open-source alternatives for controlling business spend, automating procurement, and analyzing purchasing data.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub forks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+</p>
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Coupa](#coupa)
-  - [Ramp](#ramp)
-  - [Brex](#brex)
-  - [Spendesk](#spendesk)
-  - [Airbase by Paylocity](#airbase-by-paylocity)
-  - [Pleo](#pleo)
-  - [Payhawk](#payhawk)
-  - [Teampay](#teampay)
-  - [Procurify](#procurify)
-- [Open-Source Software](#-open-source-software)
-  - [Shillinq](#shillinq)
-  - [aribacortex](#aribacortex)
-  - [Ledgic](#ledgic)
-  - [Odoo Purchase](#odoo-purchase)
-  - [EzProcurements](#ezprocurements)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 **A curated directory of top-tier Spend Management and Procurement Analytics platforms** — featuring commercial SaaS powerhouses, AI-driven purchasing agents, corporate card spend automation, and self-hosted open-source Procure-to-Pay (P2P) solutions for full spend visibility, real-time AP automation, and cost intelligence.
+> 
+> ⭐ *Star this repository if you find it valuable for your finance, procurement, or engineering stack!* ⭐
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Spend Management and Procurement Analytics platforms. These are not open-source but are included as reference points for feature comparison.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+  - [Enterprise SaaS Comparison Matrix](#-enterprise-saas-comparison-matrix)
+  - [Detailed SaaS Platform Deep Dives](#-detailed-saas-platform-deep-dives)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [Open-Source Solutions Comparison](#-open-source-solutions-comparison)
+  - [Detailed Open-Source Profiles](#-detailed-open-source-profiles)
+- [📊 Architectural Comparison at a Glance](#-architectural-comparison-at-a-glance)
+- [🔍 SEO Keyword Matrix & Buying Considerations](#-seo-keyword-matrix--buying-considerations)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-### Coupa
-**Type:** Comprehensive business spend management suite  
-Coupa is a long-standing enterprise BSM platform covering procurement, invoicing, expense tracking, and supplier management. Reviewers note it is highly functional and flexible, handling the entire purchase lifecycle from sourcing to payment, though the interface can feel complex and less collaborative internally [citation:2]. Coupa is consistently positioned as the most expensive option in its class, but users often feel the depth justifies the cost [citation:2]. Its analytics are native to the suite, meaning they are powerful for data created inside Coupa but can miss spend in external systems [citation:1].  
-**Best for:** Mid-to-large enterprises wanting a single, deeply integrated platform for end-to-end procurement and spend control.
+---
 
-### Ramp
-**Type:** Finance automation with corporate cards and procurement  
-Ramp combines corporate cards, expense management, accounts payable, and procurement into one platform, monetizing primarily through card interchange to offer free core spend management. Recent releases emphasize **real-time budget tracking** across T&E, AP, and POs, plus **AI purchasing agents** that handle sourcing, contract review, and renewal benchmarking [citation:3][citation:13]. It also added AI token spend management for teams consuming LLM APIs [citation:13].  
-**Best for:** Startups and mid-market companies wanting modern, automated spend control with a free entry point and strong AI roadmap.
+## 🌐 Sector Overview & Market Dynamics
 
-### Brex
-**Type:** Global spend management with enterprise controls  
-Brex provides corporate cards, expense management, and travel with a focus on **global and multi-entity operations**. It supports local cards in 60+ countries, automated VAT reclamation (via Fintua and VAT IT), and multi-entity ERP mapping for cleaner consolidation [citation:14]. Vendor management features let admins assign owners to vendor relationships and automate ERP vendor creation on export [citation:4]. Brex also integrates with procurement platforms like Coupa Pay for virtual card provisioning [citation:4].  
-**Best for:** Enterprises and global companies needing multi-entity spend control, local currency cards, and automated tax recovery.
+The global **Business Spend Management (BSM) and Procurement Analytics market** is currently estimated at **$30–$35 billion** and projected to surpass **$50 billion by 2030** (expanding at an 11–13% CAGR), with the specialized procurement and spend analytics software segment surging at over **18–22% CAGR** as organizations transition away from legacy ERP spend cubes toward AI-native sourcing and automated taxonomy classification.
 
-### Spendesk
-**Type:** European spend management with AI data access  
-Spendesk targets European finance teams with cards, expense claims, invoices, and budgets. Its **AI Connect** feature (via MCP) lets finance teams query spend data using AI assistants like Claude, without exporting to spreadsheets [citation:5]. The platform added French e-invoicing compliance (Plateforme Agréée) ahead of the September 2026 mandate, and **Smart Request Predictions** auto-fill cost centers and categories with 92% accuracy, reducing manual entry by 57% [citation:5].  
-**Best for:** European SMBs and mid-market companies needing compliant, AI-assisted spend control with strong local integrations.
+The sector is **moderately fragmented**: while legacy enterprise suites (such as Coupa and SAP Ariba) command top-down enterprise spend and complex global P2P workflows, intense competition from high-velocity fintech spend-card disruptors (such as Ramp and Brex) alongside specialized mid-market point tools (such as Spendesk, Pleo, and Procurify) prevents a winner-take-all monopoly, driving continuous innovation across AI purchase agents, real-time budget sync, and cross-border AP automation.
 
-### Airbase by Paylocity
-**Type:** Unified AP, procurement, and expense platform  
-Airbase combines AP automation, guided procurement with purchase orders, corporate cards, and expense reimbursements on a single system with real-time GL sync [citation:6]. It was acquired by Paylocity in 2024 and now extends Paylocity's HCM suite into the office of the CFO [citation:6]. It offers a developer platform (REST API, webhooks, sandbox) for custom ERP/GL connections and exposes spend data across cards, bills, and reimbursements for reporting [citation:6].  
-**Best for:** Mid-market companies wanting unified AP and procurement with strong API extensibility, particularly those in the Paylocity HCM ecosystem.
+---
 
-### Pleo
-**Type:** European expense automation with subscription tracking  
-Pleo focuses on automating expense capture, reviews, and reimbursements for European teams. It includes **Fetch** for collecting receipts from email, AI expense review against company guidelines, automated reimbursement schedules, and **subscription tracking** that generates an overview of recurring vendors and renewal reminders [citation:7]. Vendor cards apply default accounting values to recurring spend, reducing repetitive categorization [citation:7].  
-**Best for:** European SMBs wanting to automate expense admin and gain visibility into SaaS/subscription spend without a heavy procurement suite.
+## 🟦 SaaS & Hosted Platforms
 
-### Payhawk
-**Type:** Enterprise spend management with native SAP integration  
-Payhawk targets complex, enterprise finance teams with a focus on ERP depth. Its Summer '26 release added **native SAP S/4HANA Public Cloud integration** for syncing expenses, payments, and master data, plus role-based field visibility for segregation of duties [citation:9]. It supports unified invoice capture (e-invoices, PDFs, supplier portals), global payments in 115+ currencies, and AI workflows (Financial Controller Agent in Teams) [citation:9].  
-**Best for:** Enterprises running SAP or complex multi-entity operations needing deep ERP integration without sacrificing usability.
+Commercial, cloud-hosted Spend Management, Corporate Card, and Procurement Analytics platforms.
 
-### Teampay
-**Type:** Proactive spend management with real-time controls  
-Teampay (by Paystand) emphasizes **proactive spend management** with pre-coded transactions, automated receipt matching, and real-time visibility into actuals, commitments, and budgets [citation:8]. It provides customizable reporting filtered by vendor, category, employee, or department, and integrates with accounting systems for automatic reconciliation [citation:8].  
-**Best for:** CFOs and finance teams wanting granular, real-time control over employee and vendor spend with strong reporting.
+### 💳 Enterprise SaaS Comparison Matrix
 
-### Procurify
-**Type:** Procurement and spend control for mid-market  
-Procurify provides purchase requisitions, approvals, purchase orders, and budget tracking with real-time visibility into committed spend [citation:10]. It supports configurable workflows, two- or three-way matching, and audit logs for compliance [citation:10]. Positioned as a mid-market suite that trades analytical depth for faster deployment and lower cost compared to enterprise BSM platforms [citation:1].  
-**Best for:** Mid-market organizations needing structured purchasing workflows and budget control without enterprise complexity.
+*The table below is sorted by company size (Revenue / Valuation) in descending order:*
+
+| Product 🏢 | Company Scale (Valuation / Revenue) 📈 | Starting Pricing 💰 | Free Tier & Free Trial Limits 🎁 | Core Focus / Sweet Spot 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Ramp](https://ramp.com/)** 🚀 | **Valuation: ~$60B**<br>Revenue: ~$1.5B+ ARR | **$0/month** (Free base tier)<br>Paid: **$15/user/month** (Ramp Plus) | **Free Forever Tier**: Unlimited corporate cards, basic expense tracking, and bill pay at $0 software fee.<br>*Ramp Plus*: 30-day free trial. | Modern corporate cards, real-time budget tracking, and autonomous AI purchasing agents. |
+| **[Coupa](https://www.coupa.com/)** 🏢 | **Valuation: $8.0B** (Thoma Bravo PE buyout)<br>Revenue: ~$818M+ TTM | **Custom annual subscription** (typically starts at **~$2,500/month** or ~$20,000–$100,000+/year) | **Buyer Platform**: No free tier/trial (custom sales demo only).<br>**Supplier Portal (CSP)**: Free forever for transacting + 10 free AI invoice OCR uploads; 30-day free trial for Advanced Supplier tier (up to 2,000 automated submissions). | End-to-end Enterprise Business Spend Management (BSM), complex sourcing, and P2P compliance. |
+| **[Brex](https://www.brex.com/)** 🌐 | **Valuation: $5.15B** (Acquired by Capital One)<br>Revenue: ~$500M+ ARR | **$0/month** (*Essentials* tier)<br>Paid: **$12/user/month** (*Premium* tier) | **Free Forever Tier (*Essentials*)**: Corporate card management, expense tracking, and basic bill pay for startups at $0.<br>*Premium*: 30-day free trial available. | Global spend management, multi-entity ERP reconciliation, and international corporate cards (60+ countries). |
+| **[Pleo](https://www.pleo.io/)** 💳 | **Valuation: $4.7B**<br>Revenue: ~$110M ARR | **~£8/user/month** (Starter tier; scales up to £18+/user/month) | **21-Day Free Trial** with full access to smart employee expense cards, receipt auto-capture (Fetch), and recurring vendor subscription tracking. No free forever tier. | European SMB expense automation, automated receipt capture, and SaaS subscription tracking. |
+| **[Spendesk](https://www.spendesk.com/)** 🇪🇺 | **Valuation: ~$1.1B** (Unicorn)<br>Revenue: ~$52M ARR | **Custom platform subscription** (Entry quotes start around **~$95–$150/month** platform fee + transaction usage) | **No Free Trial & No Free Tier**: Requires a 1-on-1 guided live demo with finance sales engineers due to European banking and card compliance. | European spend controls, Smart Request Predictions, French e-invoicing compliance, and AI Connect. |
+| **[Payhawk](https://payhawk.com/)** ⚡ | **Valuation: ~$1.0B** (Unicorn)<br>Revenue: ~$100M ARR | **$299/month** (Travel) / **$349/month** (AP Automation) / **$449/month** (Cards & Expenses) | **7-Day Free Trial** (Cards & Expenses Growth tier): Full testing of spend limits, approval workflows, and receipt reconciliation. No free forever tier. | Complex enterprise ERP integration (native SAP S/4HANA Public Cloud sync) and global multi-currency payments. |
+| **[Airbase](https://www.airbase.com/)** 📑 | **Acquired by Paylocity**<br>Stand-alone Revenue: ~$96.6M ARR | **Custom annual contract** (Mid-market deployments typically start around **~$18,000/year** or ~$1,500/month equivalent) | **No Free Tier & No Public Trial**: Guided custom pilot available via sales consultation and Paylocity ecosystem onboarding. | Unified AP automation, guided procurement workflows, purchase orders, and seamless payroll/HCM synergy. |
+| **[Procurify](https://www.procurify.com/)** 🛒 | **Funding: $83M Total Raised**<br>Revenue: ~$55M ARR | **Custom annual contract** (Starting tiers estimate at **~$1,000–$2,000/month** or ~$15,000/year median) | **No Free Tier & No Self-Serve Trial**: Available exclusively via scheduled product demo and guided multi-stakeholder sandbox. | Mid-market procure-to-pay (P2P), custom purchase order approvals, and real-time committed spend control. |
+| **[Teampay](https://www.teampay.co/)** 🤝 | **Privately Backed** (Acquired by Paystand)<br>Revenue: Private Mid-Market | **Custom quote-based pricing** (Estimated starting tiers at **~$500–$1,000/month**) | **No Free Forever Tier & No Public Trial**: Customized live product evaluation demo upon sales inquiry. | Proactive spend management, Slack/Teams pre-approval bot workflows, and automated receipt matching. |
+
+---
+
+### 🔍 Detailed SaaS Platform Deep Dives
+
+#### Coupa
+* **Category:** Comprehensive Business Spend Management (BSM) Suite 🏢
+* **Overview:** Coupa is the benchmark enterprise BSM platform encompassing strategic sourcing, procure-to-pay, invoicing, contract management, and treasury. Its native analytics offer unparalleled depth for enterprise data created inside the Coupa ecosystem, delivering automated savings calculations and supplier ESG auditing.
+* **Best for:** Large enterprise organizations requiring a single, mission-critical platform for end-to-end procurement governance and global compliance.
+
+#### Ramp
+* **Category:** Finance Automation, Corporate Cards & AI Procurement 🚀
+* **Overview:** Ramp combines high-limit corporate charge cards with automated expense management, bill pay, and cutting-edge autonomous AI procurement agents. Ramp's AI agents review vendor contracts, benchmark software pricing across peer companies, and provide real-time budget tracking across all cards and accounts payable.
+* **Best for:** Fast-growing startups and mid-market enterprises looking for maximum financial automation with zero base software costs.
+
+#### Brex
+* **Category:** Global Spend Management & Multi-Entity Operations 🌐
+* **Overview:** Brex provides corporate credit cards, automated expense management, travel bookings, and bill pay optimized for global companies operating across multiple subsidiaries. It supports local currency card issuance in 60+ countries, automated VAT reclamation, and complex multi-entity ERP charting.
+* **Best for:** Multi-national companies, remote-first global teams, and enterprises needing global tax reclamation and local currency billing.
+
+#### Spendesk
+* **Category:** European Spend Management & AI Procurement Intake 🇪🇺
+* **Overview:** Spendesk delivers comprehensive spend control tailored to European regulatory and tax standards. Its AI Connect feature enables finance teams to query financial ledgers using natural-language AI assistants (such as Claude or ChatGPT), while its Smart Request Predictions feature auto-classifies cost centers with over 90% accuracy.
+* **Best for:** European SMBs and mid-market organizations preparing for European e-invoicing mandates and decentralized team purchasing.
+
+#### Airbase by Paylocity
+* **Category:** Unified AP Automation, Procurement & Expense Management 📑
+* **Overview:** Airbase unites purchase requisitions, PO creation, AP invoice processing, corporate credit cards, and employee expense reimbursements with real-time general ledger (GL) synchronization. Now integrated into the Paylocity HCM ecosystem, it bridges human resources and CFO office workflows.
+* **Best for:** Mid-market finance teams seeking an all-in-one AP and purchasing tool with comprehensive REST API extensibility.
+
+#### Pleo
+* **Category:** Automated Expense Management & Subscription Optimization 💳
+* **Overview:** Pleo focuses on hands-free employee expense management across the UK and Europe. Features like "Fetch" automatically retrieve digital receipts directly from employee Gmail/Outlook inboxes, while built-in SaaS subscription trackers flag redundant software seats and track renewal dates.
+* **Best for:** European SMBs seeking straightforward, automated receipt capture and company card governance without heavy ERP procurement friction.
+
+#### Payhawk
+* **Category:** Enterprise Spend Management & Native SAP Connectivity ⚡
+* **Overview:** Payhawk combines corporate cards, accounts payable, and employee expense reimbursements with deep, bi-directional ERP synchronizations—including native SAP S/4HANA Public Cloud integration. It supports global invoice capture, OCR line-item extraction, and multi-entity cross-border payments across 115+ currencies.
+* **Best for:** Mid-market and enterprise organizations running SAP, NetSuite, or Microsoft Dynamics with multi-currency operations.
+
+#### Procurify
+* **Category:** Mid-Market Procure-to-Pay (P2P) & Purchasing Governance 🛒
+* **Overview:** Procurify simplifies purchase orders, requisitions, vendor contracts, and budget management. With intuitive mobile approval apps and automated 2-way and 3-way invoice matching, it brings enterprise-grade purchasing discipline without legacy configuration overhead.
+* **Best for:** Fast-moving organizations outgrowing basic spreadsheets and needing tight budget governance before spend occurs.
+
+#### Teampay
+* **Category:** Proactive Distributed Spend Management 🤝
+* **Overview:** Teampay (part of Paystand) enforces spend control before money is spent. Through deep Slack and Microsoft Teams integrations, employees can request purchases inside chat channels, prompting designated managers for instant workflow authorization.
+* **Best for:** Distributed organizations seeking conversational, real-time Slack/Teams spend approvals and automatic receipt reconciliation.
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Spend Management and Procurement Analytics tools. The open-source ecosystem is **nascent** for full spend management, but several projects target procurement workflows, analytics, and AP automation.
+Self-hosted, transparent, and community-maintained Spend Management, Procurement, and AP Automation repositories.
 
-### Shillinq
-**Stack:** PHP / Nextcloud / OpenRegister | **License:** EUPL-1.2  
-Shillinq is a complete open-source business administration suite for Nextcloud that includes **procurement management, supplier management, and contract lifecycle management** alongside bookkeeping and invoicing . It supports purchase orders, supplier approval chains, contract repositories with full-text search, and a **free plan for basic procurement management** . It is one of the few open-source projects explicitly covering the intersection of procurement and spend control in a self-hosted environment.  
-**Best for:** Organizations already running Nextcloud wanting integrated procurement and supplier management without a separate SaaS subscription.
+### 🌟 Open-Source Solutions Comparison
 
-### aribacortex
-**Stack:** Python | **License:** MIT  
-aribacortex is an open-source Python library for **AI-powered SAP Ariba procurement intelligence and sourcing analytics** [citation:11]. It provides supplier scoring (cost, delivery, quality, risk, ESG, compliance), spend optimization by supplier or category, procurement risk detection (single-source exposure, compliance findings), and P2P workflow analytics (touchless rate, cycle time) [citation:11]. It is designed for SAP Ariba environments and can be embedded in CI/CD or analytics jobs. **Important:** This is an analytics library, not a full spend management platform—it analyzes data you provide.  
-**Best for:** SAP Ariba teams and procurement analysts wanting open-source supplier scoring and spend analytics without a commercial suite.
+*The table below is sorted by GitHub star count in descending order, with social star badges linking directly to each repository's stargazers page:*
 
-### Ledgic
-**Stack:** Next.js / FastAPI / Supabase / PostgreSQL | **License:** Open Source (per repository)  
-Ledgic is an open-source **accounts-payable automation** platform with AI extraction, three-way matching, and tool-using agents [citation:19]. It enforces segregation of duties in SQL (AP managers approve up to $5,000, controllers above), maintains an append-only hash-chained audit log, and exposes an MCP server for AI agent access [citation:19]. While focused on AP rather than broad spend management, it provides the invoice-processing backbone that spend control depends on.  
-**Best for:** Teams wanting self-hosted AP automation with strong security controls and AI-assisted invoice processing.
-
-### Odoo Purchase
-**Stack:** Python / PostgreSQL | **License:** LGPL-3.0 (Community)  
-Odoo's Purchase module automates requisition-to-pay, controls invoicing, and manages vendor information within the broader Odoo ERP [citation:26]. It supports procurement propositions based on stock levels, purchase tenders with vendor comparison, vendor pricelist imports, and three-way matching for invoice control [citation:26]. The Community edition is free; Enterprise adds advanced features. It is part of a full ERP suite rather than a standalone spend management tool.  
-**Best for:** Organizations already using or planning to adopt Odoo for ERP wanting integrated procurement within their existing system.
-
-### EzProcurements
-**Stack:** (Check repository) | **License:** Open Source  
-EzProcurements is listed as a fast and free open-source e-Procurement solution suitable for companies from small businesses to global enterprises [citation:21]. (Search results were limited; verify current maintenance and feature coverage before adoption.)  
-**Best for:** Teams wanting a lightweight, free e-procurement starting point, with careful evaluation of maintenance status.
+| Solution & Repository 📦 | GitHub Stars 🌟 | Primary Stack 🛠️ | License ⚖️ | Spend & Procurement Capabilities ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Odoo Purchase](https://github.com/odoo/odoo)** 🌐 | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python / PostgreSQL / JavaScript | LGPL-3.0 | Complete ERP purchase module: Requisition-to-pay, RFP tender comparisons, automated PO replenishment rules, and 3-way invoice matching. |
+| **[ERPNext](https://github.com/frappe/erpnext)** 💼 | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python (Frappe) / MariaDB / JS | GPL-3.0 | Full open-source ERP procurement suite: Supplier quotations, purchase requisitions, PO lifecycle, vendor ratings, landed cost vouchers, and spend analytics. |
+| **[BidMaster Pro](https://github.com/guangshu100/BidMaster-Pro)** 🤖 | [![BidMaster Stars](https://img.shields.io/github/stars/guangshu100/BidMaster-Pro?style=social&color=white)](https://github.com/guangshu100/BidMaster-Pro/stargazers) | Python / Vue / AI Agents | MIT | Full-lifecycle AI procurement & bidding agent: RFP analysis, automated proposal authoring, 21 automated compliance checks, and OCR extraction. |
+| **[leihs](https://github.com/leihs/leihs)** 📦 | [![leihs Stars](https://img.shields.io/github/stars/leihs/leihs?style=social&color=white)](https://github.com/leihs/leihs/stargazers) | Ruby on Rails / Clojure / PostgreSQL | GPL-3.0 | Collaborative procurement, equipment inventory management, and internal requisition/lending workflows for universities and enterprises. |
+| **[ForgeFlow](https://github.com/JayleeBot/ForgeFlow)** ⚡ | [![ForgeFlow Stars](https://img.shields.io/github/stars/JayleeBot/ForgeFlow?style=social&color=white)](https://github.com/JayleeBot/ForgeFlow/stargazers) | Python / LLM Agents | MIT | AI-powered procurement email agent: Reads vendor quote solicitations, parses line items, compares supplier pricing, and drafts purchase quotes. |
+| **[OpenProcurement API](https://github.com/openprocurement/openprocurement.api)** 🏛️ | [![OpenProcurement Stars](https://img.shields.io/github/stars/openprocurement/openprocurement.api?style=social&color=white)](https://github.com/openprocurement/openprocurement.api/stargazers) | Python / Pyramid / CouchDB | Apache-2.0 | High-performance public procurement platform API engine powering transparent reverse auctions, open contracting standards (OCDS), and multi-tier tenders. |
+| **[Open Tender Watch](https://github.com/bit-of-a-shambles/open-tender-watch)** 🕵️ | [![OpenTenderWatch Stars](https://img.shields.io/github/stars/bit-of-a-shambles/open-tender-watch?style=social&color=white)](https://github.com/bit-of-a-shambles/open-tender-watch/stargazers) | Ruby on Rails 8 / PostgreSQL | AGPL-3.0 | Procurement intelligence and anti-corruption analytics: Monitors public contracts across EU/Portuguese databases to flag corruption and collusion risk patterns. |
+| **[eForms SDK](https://github.com/OP-TED/eForms-SDK)** 🇪🇺 | [![eForms Stars](https://img.shields.io/github/stars/OP-TED/eForms-SDK?style=social&color=white)](https://github.com/OP-TED/eForms-SDK/stargazers) | XML / JSON / Schematron | EUPL-1.2 | The European Commission's open standard SDK for implementing public procurement notifications, e-procurement workflows, and standard tender data. |
+| **[Awesome Procurement Data](https://github.com/makegov/awesome-procurement-data)** 📊 | [![AwesomeProcurementData Stars](https://img.shields.io/github/stars/makegov/awesome-procurement-data?style=social&color=white)](https://github.com/makegov/awesome-procurement-data/stargazers) | Markdown / Data Standards | CC0-1.0 | Curated directory of US federal and international public procurement datasets, spend transparency APIs, and government contract tracking feeds. |
+| **[Licinexus MCP](https://github.com/Licinexus/licinexus-mcp)** 🔌 | [![Licinexus Stars](https://img.shields.io/github/stars/Licinexus/licinexus-mcp?style=social&color=white)](https://github.com/Licinexus/licinexus-mcp/stargazers) | TypeScript / Model Context Protocol | MIT | Model Context Protocol (MCP) server exposing Brazilian public procurement (PNCP) and corporate registry data directly to LLM agents. |
+| **[Merconiq](https://github.com/nirzaf/merconiq)** 💼 | [![Merconiq Stars](https://img.shields.io/github/stars/nirzaf/merconiq?style=social&color=white)](https://github.com/nirzaf/merconiq/stargazers) | C# / .NET / Blazor | GPL-3.0 | Modular open-source business management system evolving from inventory management and procurement into customizable purchasing workflows. |
+| **[Shillinq](https://github.com/ConductionNL/shillinq)** 💶 | [![Shillinq Stars](https://img.shields.io/github/stars/ConductionNL/shillinq?style=social&color=white)](https://github.com/ConductionNL/shillinq/stargazers) | PHP / Nextcloud / OpenRegister | EUPL-1.2 | Self-hosted procurement, supplier relationship management (SRM), and contract lifecycle management suite designed natively for Nextcloud ecosystems. |
+| **[Ledgic](https://github.com/alihdrndm/ledgic)** 🧾 | [![Ledgic Stars](https://img.shields.io/github/stars/alihdrndm/ledgic?style=social&color=white)](https://github.com/alihdrndm/ledgic/stargazers) | Next.js / FastAPI / Supabase | MIT | Open-source accounts payable (AP) automation platform with AI invoice OCR, SQL-enforced segregation of duties, and cryptographic hash-chained audit trails. |
+| **[aribacortex](https://pypi.org/project/aribacortex/)** 🐍 | [![PyPI version](https://img.shields.io/pypi/v/aribacortex?style=social&color=white)](https://pypi.org/project/aribacortex/) | Python / Analytical Engine | MIT | Open-source Python library for AI-powered SAP Ariba procurement intelligence: multi-attribute supplier scoring, category spend optimization, and cycle-time analytics. |
 
 ---
 
-## 📊 Comparison at a Glance
+### 📖 Detailed Open-Source Profiles
 
-| Software | License | Stack | Procurement | Spend Analytics | AP/Invoicing | Self-Hosted | Best For |
-|----------|---------|-------|-------------|-----------------|--------------|-------------|----------|
-| **Coupa** | Proprietary | Cloud | ✅ Deep | ✅ (Suite data) | ✅ | ❌ | Enterprise BSM |
-| **Ramp** | Proprietary | Cloud | ✅ AI agents | ✅ Real-time budgets | ✅ | ❌ | Modern mid-market + AI |
-| **Brex** | Proprietary | Cloud | (Vendor mgmt) | ✅ Global | ✅ | ❌ | Global multi-entity |
-| **Spendesk** | Proprietary | Cloud | (Invoices) | ✅ AI Connect | ✅ | ❌ | European compliance |
-| **Airbase** | Proprietary | Cloud | ✅ Guided POs | ✅ | ✅ | ❌ | Unified AP + procurement |
-| **Payhawk** | Proprietary | Cloud | (Invoices) | ✅ SAP-native | ✅ | ❌ | SAP enterprises |
-| **Procurify** | Proprietary | Cloud | ✅ POs + budgets | ✅ | (Matching) | ❌ | Mid-market procurement |
-| **Shillinq** | EUPL-1.2 | PHP/Nextcloud | ✅ POs + suppliers | ✅ Contract spend | ✅ | ✅ | Nextcloud procurement |
-| **aribacortex** | MIT | Python | (Ariba analytics) | ✅ Supplier scoring | ❌ | ✅ (Library) | Ariba spend analytics |
-| **Ledgic** | Open Source | Next.js/FastAPI | (AP focus) | (Invoice) | ✅ 3-way match | ✅ | Self-hosted AP |
-| **Odoo Purchase** | LGPL-3.0 | Python/Postgres | ✅ Requisition-to-pay | (ERP) | ✅ | ✅ | Odoo ERP procurement |
+#### Odoo Purchase Module
+* **Stack:** Python, PostgreSQL, XML, JavaScript | **License:** LGPL-3.0 🌐
+* **Highlights:** Automatically generates purchase orders based on real-time inventory minimums, sends RFQs to multiple vendors, tracks vendor delivery lead times, and enforces three-way matching (PO vs. Receipt vs. Vendor Bill) prior to payment release.
+* **Repository:** [odoo/odoo](https://github.com/odoo/odoo)
+
+#### ERPNext Procurement Suite
+* **Stack:** Python (Frappe Framework), MariaDB, JavaScript | **License:** GPL-3.0 💼
+* **Highlights:** Comprehensive enterprise P2P workflows including material requests, RFQs, supplier quotation comparisons, purchase orders, purchase receipts, and landed cost vouchers for accurate inventory valuation.
+* **Repository:** [frappe/erpnext](https://github.com/frappe/erpnext)
+
+#### BidMaster Pro
+* **Stack:** Python, Vue.js, Multi-Agent LLMs | **License:** MIT 🤖
+* **Highlights:** Autonomous AI agent for end-to-end tender review and bid authoring. Performs 21 pre-configured procurement compliance checks, extracts tender requirements via OCR, and drafts bid proposals.
+* **Repository:** [guangshu100/BidMaster-Pro](https://github.com/guangshu100/BidMaster-Pro)
+
+#### leihs
+* **Stack:** Ruby on Rails, Clojure, PostgreSQL | **License:** GPL-3.0 📦
+* **Highlights:** Tailored for internal equipment procurement, inventory reservation, and lending operations within educational and research institutions.
+* **Repository:** [leihs/leihs](https://github.com/leihs/leihs)
+
+#### ForgeFlow
+* **Stack:** Python, LLM Orchestration | **License:** MIT ⚡
+* **Highlights:** Operates as an automated email inbox agent for procurement teams—parsing incoming vendor quotes, structuring PDF cost breakdowns, and comparing competitive bids.
+* **Repository:** [JayleeBot/ForgeFlow](https://github.com/JayleeBot/ForgeFlow)
+
+#### OpenProcurement API
+* **Stack:** Python, Pyramid, CouchDB | **License:** Apache-2.0 🏛️
+* **Highlights:** Proven in high-volume national public procurement systems (such as Ukraine's ProZorro). Supports reverse auctions, multi-lot tenders, qualification workflows, and Open Contracting Data Standard (OCDS) compliance.
+* **Repository:** [openprocurement/openprocurement.api](https://github.com/openprocurement/openprocurement.api)
+
+#### Open Tender Watch
+* **Stack:** Ruby on Rails 8, PostgreSQL | **License:** AGPL-3.0 🕵️
+* **Highlights:** Scrapes and processes public procurement contract data across Portuguese and European databases, executing algorithmic audits to highlight bid rigging, split contracts, and single-source irregularities.
+* **Repository:** [bit-of-a-shambles/open-tender-watch](https://github.com/bit-of-a-shambles/open-tender-watch)
+
+#### Shillinq
+* **Stack:** PHP, Nextcloud Ecosystem | **License:** EUPL-1.2 💶
+* **Highlights:** Provides organizations already using Nextcloud with a native portal for supplier master data, purchase approvals, and contract expirations without external SaaS exposure.
+* **Repository:** [ConductionNL/shillinq](https://github.com/ConductionNL/shillinq)
+
+#### Ledgic
+* **Stack:** Next.js, FastAPI, PostgreSQL, Supabase | **License:** MIT 🧾
+* **Highlights:** Provides developers with an open-source framework for AP invoice ingestion, two-way/three-way reconciliation, and financial segregation of duties.
+* **Repository:** [alihdrndm/ledgic](https://github.com/alihdrndm/ledgic)
+
+---
+
+## 📊 Architectural Comparison at a Glance
+
+| System | Deployment | Primary Strength | Sourcing & RFQ | 3-Way Matching | Corporate Cards | Spend Analytics |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Coupa** | Cloud SaaS | Global BSM Governance | ✅ Deep | ✅ Native | ✅ Virtual/Partner | ✅ Enterprise Suite |
+| **Ramp** | Cloud SaaS | AI Finance Automation | ✅ AI Agent | ✅ Integrated AP | ✅ Native Physical/Virtual | ✅ Real-time Budgets |
+| **Brex** | Cloud SaaS | Multi-Entity Global Spend | ❌ (Intake only) | ✅ AP Bill Pay | ✅ Global Local Cards | ✅ Multi-Entity |
+| **Pleo** | Cloud SaaS | European SMB Cards & SaaS | ❌ | ❌ (Receipt match) | ✅ Smart Mastercards | ✅ Subscription Tracker |
+| **Spendesk** | Cloud SaaS | European AP & Card Control | ❌ (Intake) | ✅ Invoice match | ✅ Debit/Credit Cards | ✅ AI Connect |
+| **Payhawk** | Cloud SaaS | Deep SAP S/4HANA Sync | ❌ | ✅ Automated OCR | ✅ Multicurrency Cards | ✅ ERP Real-Time |
+| **Airbase** | Cloud SaaS | Guided AP & PO Lifecycle | ❌ (Catalog) | ✅ Full 3-Way | ✅ Virtual/Physical | ✅ Mid-market GL Sync |
+| **Procurify** | Cloud SaaS | Mid-Market P2P Approval | ✅ Requisitions | ✅ 3-Way Match | ✅ Spending Cards | ✅ Committed vs Actual |
+| **Odoo Purchase** | Self-Hosted / Cloud | Modular ERP Integration | ✅ Supplier Tenders | ✅ Native 3-Way | ❌ (Bank sync only) | ✅ Pivot & Graph BI |
+| **ERPNext** | Self-Hosted / Cloud | Open Enterprise ERP | ✅ Full RFQ Cycle | ✅ Native 3-Way | ❌ | ✅ Built-in Reports |
+| **OpenProcurement**| Self-Hosted Cloud | Transparent Public Tenders | ✅ Reverse Auctions | ❌ (Contracting) | ❌ | ✅ Public OCDS Data |
+
+---
+
+## 🔍 SEO Keyword Matrix & Buying Considerations
+
+When architecting or selecting spend management and procurement analytics infrastructure, organizations evaluate platforms across several core capabilities:
+
+1. **Procure-to-Pay (P2P) Automation:** Automated purchase requisition forms, multi-level hierarchy approval matrix rules, purchase order generation, and automated two-way and three-way invoice matching.
+2. **AI Purchasing & Contract Benchmarking:** Autonomous agents capable of negotiating price renewals, extracting line items from non-standard vendor PDF quotes, and monitoring supplier risk ratings.
+3. **Corporate Card & Out-of-Pocket Expense Management:** Virtual card generation with pre-set spend limits, real-time transaction alerts, SMS/email receipt collection, and automated GL account coding.
+4. **Accounts Payable (AP) Invoice Processing:** Intelligent OCR capture, vendor tax compliance checks, duplicate payment alerts, and multi-currency ACH/wire/SEPA disbursements.
+5. **Spend Analytics & Tail Spend Visibility:** Automated category classification, maverick spend identification, vendor concentration analysis, and contract renewal forecasting.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Spend Management or Procurement Analytics tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you know of an open-source Spend Management or Procurement Analytics project that should be listed, please submit a pull request:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **full spend management** is very limited compared to commercial platforms. **Shillinq** is the most comprehensive open-source option for procurement and supplier management within a self-hosted suite . **aribacortex** fills a niche for SAP Ariba spend analytics [citation:11], while **Ledgic** provides AP automation with strong security controls [citation:19]. Commercial platforms like Coupa, Ramp, and Brex remain far more capable for real-time card controls, global payments, and AI-driven procurement automation.
+1. Fork this repository.
+2. Create your feature branch (`git checkout -b feature/add-new-tool`).
+3. Add the project to the relevant comparison tables and detailed lists with:
+   - Project Name and direct GitHub link
+   - Social star badge linking to the stargazers page
+   - Tech stack, license, and key capabilities
+4. Commit your changes and submit a pull request!
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is distributed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain dedication. Listed software projects and vendor trademarks are the property of their respective owners.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <i>Found this repository helpful? Give it a star to support open procurement and spend transparency!</i> ⭐
+</p>
