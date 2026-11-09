@@ -5,10 +5,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&oogo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics?style=social" alt="GitHub forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management-Procurement-Analytics"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🌟 **A curated directory of top-tier Spend Management and Procurement Analytics platforms** — featuring commercial SaaS powerhouses, AI-driven purchasing agents, corporate card spend automation, and self-hosted open-source Procure-to-Pay (P2P) solutions for full spend visibility, real-time AP automation, and cost intelligence.
@@ -29,6 +32,8 @@
 - [📊 Architectural Comparison at a Glance](#-architectural-comparison-at-a-glance)
 - [🔍 SEO Keyword Matrix & Buying Considerations](#-seo-keyword-matrix--buying-considerations)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -229,6 +234,23 @@ Contributions are warmly welcomed! If you know of an open-source Spend Managemen
    - Social star badge linking to the stargazers page
    - Tech stack, license, and key capabilities
 4. Commit your changes and submit a pull request!
+
+---
+
+## 💖 Support
+
+A huge thank you to everyone exploring, using, and contributing to this curated repository! If this guide helped you discover tools, benchmark solutions, or streamline your procurement stack:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** by adding more tools or updating data.
+- 📢 **Share it** with fellow finance leaders, procurement pros, and software engineers.
+- ☕ **Buy me a coffee / Sponsor:** If you find this project valuable, consider supporting continued maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Spend-Management-Procurement-Analytics&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Spend-Management-Procurement-Analytics&type=date&legend=top-left)
 
 ---
 
